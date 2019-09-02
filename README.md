@@ -16,6 +16,7 @@ wait for a min
 visit: 127.0.0.1:3000
 
 ## Android APP:
+Run APK or
 Install Android Studio
 Open Android Application Directory
 Run via android studio
