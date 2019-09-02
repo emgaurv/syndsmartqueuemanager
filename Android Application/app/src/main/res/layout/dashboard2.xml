@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F3F8FC"
+    android:layout_height="match_parent"
+    tools:context="com.syndsmartqueue.HomeFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="18dp"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="Dashboard"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                android:text="Syndicate Bank Shoolay Branch"/>
+
+            <LinearLayout
+                android:background="@drawable/flat_orange_button"
+                android:layout_width="match_parent"
+
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="Total Queue Number"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#ffffff"
+                    android:textSize="50dp"
+                    android:gravity="center"
+                    android:text="65"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:background="@drawable/flat_grey_button"
+                android:layout_width="match_parent"
+
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:text="Current Queue Number"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#ffffff"
+                    android:textSize="50dp"
+                    android:gravity="center"
+                    android:text="19"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textColor="#afafaf"
+                android:gravity="center"
+                android:text="Scan QR Code To Register into Queues"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

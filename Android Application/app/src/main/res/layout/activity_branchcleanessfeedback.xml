@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F3F8FC"
+    android:layout_height="match_parent"
+    tools:context="com.syndsmartqueue.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_margin="18dp"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:text="Branch FeedBack"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:text="Send Feedback about Cleaness and Services"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_margin="24dp"
+            android:src="@drawable/clean"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#646464"
+            android:textSize="16sp"
+            android:text="Cleaness Rating"/>
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:numStars="5"
+            android:layout_marginTop="12dp" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+
+            android:layout_marginTop="12dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_margin="18dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="match_parent"
+
+                    android:id="@+id/accountno"
+                    android:layout_height="wrap_content"
+                    android:hint="Write a Note" />
+
+
+                </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/submit_feedback"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/flat_orange_button"
+            android:textColor="#ffffff"
+            android:text="SEND"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

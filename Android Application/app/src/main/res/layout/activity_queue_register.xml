@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F3F8FC"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.syndsmartqueue.QueueRegister">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="18dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:text="Queue Registration"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:text="Syndicate Bank Shoolay Branch"/>
+        <com.mreram.ticketview.TicketView
+            android:layout_width ="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            app:tv_anchor1="@+id/cl_head"
+            app:tv_anchor2="@+id/cl_center"
+            >
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/cl_head"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_ticket_top">
+
+                        <TextView
+                            android:id="@+id/txt_code"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="50dp"
+                            android:layout_marginLeft="116dp"
+                            android:gravity="center"
+                            android:lineSpacingMultiplier="1.2"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="20dp"
+                            android:text="@string/code"
+                            android:textColor="#fff"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintLeft_toRightOf="@+id/txt_price"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0" />
+
+
+                        <TextView
+                            android:id="@+id/txt_price"
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="50dp"
+                            android:gravity="center"
+                            android:lineSpacingMultiplier="1.2"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="20dp"
+                            android:text="@string/price"
+
+                            android:textColor="#fff"
+                            android:textSize="12sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintHorizontal_chainStyle="spread"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toLeftOf="@id/txt_code"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                </android.support.constraint.ConstraintLayout>
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/cl_center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cl_head"
+                    android:background="#fff">
+
+                        <TextView
+                            android:id="@+id/txt_src"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:lineSpacingMultiplier="1.2"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="20dp"
+                            android:text="@string/src_city"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            app:layout_constraintLeft_toRightOf="@+id/txt_dst"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <TextView
+                            android:id="@+id/txt_dst"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="85dp"
+                            android:gravity="center"
+                            android:lineSpacingMultiplier="1.2"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="20dp"
+                            android:text="@string/dst_city"
+
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            app:layout_constraintHorizontal_chainStyle="spread"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toLeftOf="@id/txt_src"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <View
+                            android:layerType="software"
+                            android:background="@drawable/divider_container"
+                            android:layout_width="0dp"
+                            android:layout_height="5dp"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/txt_dst" />
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:lineSpacingMultiplier="1.2"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="20dp"
+                            android:text="10/09/2019"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            app:layout_constraintLeft_toRightOf="@+id/txt_dst"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/txt_src" />
+
+
+                        <TextView
+                            android:id="@+id/txt_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="60dp"
+                            android:gravity="center"
+                            android:lineSpacingMultiplier="1.2"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="20dp"
+                            android:text="Ramesh Gupta"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            app:layout_constraintHorizontal_chainStyle="spread"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintLeft_toRightOf="@+id/txt_dst"
+                            app:layout_constraintRight_toLeftOf="@id/txt_src"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/txt_dst" />
+                        <View
+                            android:layerType="software"
+                            android:background="@drawable/divider_container"
+                            android:layout_width="0dp"
+                            android:layout_height="5dp"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/txt_name" />
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/number"
+                            android:layout_marginTop="16dp"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/txt_name" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:text="Your Queue Number"
+                            android:gravity="center"
+                            android:layout_marginTop="16dp"
+                            android:textSize="12sp"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/txt_name"
+                            android:layout_height="wrap_content" />
+
+                </android.support.constraint.ConstraintLayout>
+
+
+             <!--   <TextView
+                    android:id="@+id/txtBottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cl_center"
+                    android:background="@drawable/bg_ticket_bottom"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Queue Number"
+                    android:textColor="#000000"
+                    android:textSize="10sp" />-->
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/purpose1"
+
+                    android:textColor="#ffffff"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:background="@drawable/flat_orange_button"
+                    android:layout_marginTop="8dp"
+                    android:layout_below="@+id/cl_center"
+                    android:text="Purpose of Visit"/>
+<!--<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/skipProcess"
+    android:textColor="@color/colorPrimary"
+android:background="@drawable/flat_white_button"
+    android:layout_marginTop="8dp"
+
+    style="?android:attr/borderlessButtonStyle"
+    android:layout_below="@+id/purpose1"
+    android:text="Skip"/>
+
+
+-->
+        </com.mreram.ticketview.TicketView>
+
+
+</LinearLayout>
+</LinearLayout>

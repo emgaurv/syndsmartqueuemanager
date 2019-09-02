@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent"
+    tools:context="com.syndsmartqueue.branches">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="12dp">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_margin="12dp"
+            android:src="@drawable/branch"
+            />
+
+        <TextView
+            android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-bold"
+            android:textStyle="bold"
+            android:text="Choose \nNearby Branch"
+            android:textSize="25sp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+
+            android:layout_marginLeft="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You can change later"
+            android:gravity="left"
+            android:layout_marginTop="-7dp"
+            android:textStyle="normal"
+            android:textColor="#ffffff"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+             <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp">
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:orientation="vertical"
+                     android:gravity="center"
+                     >
+                     <TextView
+                        android:id="@+id/branch1"
+                        android:text="Syndicate Bank Shoolay Branch"
+                        android:layout_width="wrap_content"
+                         android:textColor="@color/colorAccent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_alignParentTop="true"/>
+                 </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/branch2"
+                        android:text="Syndicate Bank Langford Town Branch"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/colorAccent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/branch3"
+                        android:text="Syndicate Bank Indira Nagar Branch"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/colorAccent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F8FC"
+    tools:context="com.syndsmartqueue.QrScanFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="18dp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Please Scan QR Code in Your Branch \n To Register into Queues" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/scanqrcode"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/flat_orange_button"
+            android:text="SCAN"
+            android:id="@+id/openScanner"
+
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginTop="50dp"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+</FrameLayout>
