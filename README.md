@@ -42,6 +42,7 @@ Please Follow The following Instruction to Setup The Project.
 APK File is Available in the Source Code with a Dedicated Folder,
 Copy it in your Phone to install.
 
+- Use any random Account Number To Continue while Logging in
 
 ***There is few more source to install APK***
 
