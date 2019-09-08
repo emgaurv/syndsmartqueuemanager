@@ -34,7 +34,7 @@ Please Follow The following Instruction to Setup The Project.
  - cd into the source code Folder
  - Make sure you have installed nodeJS
  - Run 'npm install'
- - Run 'nodemon'
+ - Run 'npm start' or 'nodemon'
  - open in browser '127.0.0.1:3000'
 
 
