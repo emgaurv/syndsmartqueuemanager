@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Please Scan QR Code in Your Branch \n To Register into Queues" />
+        android:text="Please Scan QR Code in your \nBranch to get Token Number" />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="180dp"

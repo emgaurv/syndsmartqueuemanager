@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/colorPrimary"
             android:textSize="14sp"
-            android:text="Send Feedback about Cleaness and Services"/>
+            android:text="Send Feedback about Cleanliness and Services"/>
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="140dp"
@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:textColor="#646464"
             android:textSize="16sp"
-            android:text="Cleaness Rating"/>
+            android:text="Cleanliness Rating"/>
         <RatingBar
             android:id="@+id/ratingBar"
             android:layout_width="wrap_content"

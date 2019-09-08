@@ -131,7 +131,7 @@ android:background="@drawable/flat_orange_button"
                         android:layout_marginTop="4dp"
                         android:textColor="#ffffff"
                         android:gravity="center"
-                        android:text="Cancel Queue"/>
+                        android:text="Cancel Token"/>
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="50dp"

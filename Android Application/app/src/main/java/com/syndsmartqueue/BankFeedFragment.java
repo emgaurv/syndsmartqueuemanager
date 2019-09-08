@@ -89,7 +89,7 @@ public class BankFeedFragment extends Fragment {
         return view;
     }
     public void callToast(){
-        Toast.makeText(getActivity(), "This Action not allowed in Prototype.", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity(), "This feature is currently unavailable in the Prototype", Toast.LENGTH_SHORT).show();
     }
 }
 

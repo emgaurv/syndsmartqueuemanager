@@ -43,7 +43,7 @@
                     android:layout_marginTop="4dp"
                     android:textColor="#ffffff"
                     android:gravity="center"
-                    android:text="Total Queue Number"/>
+                    android:text="Total Tokens"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
                     android:layout_marginTop="4dp"
                     android:textColor="#ffffff"
                     android:gravity="center"
-                    android:text="Current Queue Number"/>
+                    android:text="Current Token Number"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -86,7 +86,7 @@
                 android:layout_marginTop="16dp"
                 android:textColor="#afafaf"
                 android:gravity="center"
-                android:text="Scan QR Code To Register into Queues"/>
+                android:text="Scan QR Code To get a Token Number"/>
 
         </LinearLayout>
     </LinearLayout>
